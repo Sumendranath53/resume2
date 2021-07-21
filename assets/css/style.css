@@ -374,7 +374,6 @@ a:hover {
   border-radius: 50px;
   transition: all 0.4s;
 }
-
 .back-to-top i {
   font-size: 28px;
   color: #fff;
@@ -390,6 +389,40 @@ a:hover {
   visibility: visible;
   opacity: 1;
 }
+
+/*--------------------------------------------------------------
+# Whatsapp
+--------------------------------------------------------------*/
+.whatsapp_call {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  left: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #16e673;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.whatsapp_call i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.whatsapp_call:hover {
+  background: #1316ee;
+  color: #fff;
+}
+
+.whatsapp_call.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 
 /*------/ Prelaoder /------*/
 #preloader {
@@ -770,7 +803,8 @@ a:hover {
 }
 
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.479);
+  background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.8743872549019608) 100%);
   position: absolute;
   top: 0;
   left: 0px;

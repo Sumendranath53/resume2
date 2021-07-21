@@ -110,6 +110,26 @@
     onscroll(document, toggleBacktotop)
   }
 
+
+  /**
+   * Whatsapp
+   */
+   let whatsapp_call = select('.whatsapp_call')
+   if (whatsapp_call) {
+     const togglewhatsapp_call = () => {
+       if (window.scrollY > 100) {
+        whatsapp_call.classList.add('active')
+       } else {
+        whatsapp_call.classList.remove('active')
+       }
+     }
+     window.addEventListener('load', togglewhatsapp_call)
+     onscroll(document, togglewhatsapp_call)
+   }
+ 
+
+
+
   /**
    * Mobile nav toggle
    */
