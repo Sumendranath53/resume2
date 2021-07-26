@@ -156,7 +156,8 @@ a:hover {
   color: #1e1e1e;
   font-size: 1.1rem;
 }
-@media(max-width:767px){
+
+@media(max-width:576px){
   .about-info{
     text-align: center;
   
@@ -237,7 +238,7 @@ a:hover {
   height: 3px;
   background-color: #DA0037;
   width: 100px;
-  bottom: -12px;
+  bottom: -10px;
 }
 .lead {
   /* font-size: 1rem;
@@ -1002,7 +1003,9 @@ background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.874387254901
     padding-left: 0rem;
   }
 }
-
+.skill-mf p{
+ margin-bottom: 40px;
+}
 .skill-mf span {
   color: #4e4e4e;
 }
