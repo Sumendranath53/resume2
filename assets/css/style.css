@@ -156,8 +156,15 @@ a:hover {
   color: #1e1e1e;
   font-size: 1.1rem;
 }
+@media(max-width: 450px){
+  .about-info span{
+    color: red;
+  font-size: 0.9rem;
+  }
+}
 @media(max-width: 350px){
   .about-info span{
+    color: rgb(9, 255, 0);
   font-size: 0.8rem;
   }
 }
